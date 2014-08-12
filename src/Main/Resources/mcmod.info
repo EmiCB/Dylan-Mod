@@ -1,0 +1,21 @@
+[
+{
+  "modid": "Dylan",
+  "name": "Dylan's Mod",
+  "description": "A mod for my best friend, Dylan.",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "EmiCB"
+  ],
+  "credits": "Enjoy your chocolate milk and manga",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
