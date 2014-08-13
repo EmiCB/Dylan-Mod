@@ -1,6 +1,7 @@
 package com.emicb.dylan;
 
 import com.emicb.dylan.reference.Reference;
+import com.emicb.dylan.item.init.ModItems;
 import com.emicb.dylan.proxy.IProxy;
 
 import cpw.mods.fml.common.Mod;
@@ -21,7 +22,7 @@ public class Dylan
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{
-		
+		ModItems.init();
 	}
 	
 	@Mod.EventHandler
