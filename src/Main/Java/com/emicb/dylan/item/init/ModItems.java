@@ -11,7 +11,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 
 public class ModItems 
 {
-	public static final ItemDM chocolateMilk = new ItemChocolateMilk();
+	public static final ItemChocolateMilk chocolateMilk = new ItemChocolateMilk();
 	public static void init ()
 	{
 		GameRegistry.registerItem (chocolateMilk, "chocolateMilk");

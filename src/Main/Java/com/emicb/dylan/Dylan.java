@@ -2,6 +2,7 @@ package com.emicb.dylan;
 
 import com.emicb.dylan.reference.Reference;
 import com.emicb.dylan.item.init.ModItems;
+import com.emicb.dylan.item.init.Recipes;
 import com.emicb.dylan.proxy.IProxy;
 
 import cpw.mods.fml.common.Mod;
@@ -28,7 +29,7 @@ public class Dylan
 	@Mod.EventHandler
 	public void init (FMLInitializationEvent event)
 	{
-		
+		Recipes.init();
 	}
 	
 	@Mod.EventHandler
